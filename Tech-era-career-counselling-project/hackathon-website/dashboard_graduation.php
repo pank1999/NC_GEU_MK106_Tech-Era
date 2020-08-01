@@ -129,13 +129,52 @@ $row3=mysqli_num_rows($q3_result);
                                         </tr>
                                         <tr>
                                               
-                                            <?php 
+                                                
+                                         <?php 
                                           
-                                          if($r==4){?>
-                                           <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>
-                                          <?php } else{?>
-                                            <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php" disabled> <span class="glyphicon glyphicon-signal"></span> result </a> </th>
-                                          <?php } ?>
+                                          
+                                          
+                                          
+                                          if($row > 0)
+                                          {
+                                             if($row1>0)
+                                             {
+                                                 if($row2>0)
+                                                 {
+                                                     if($row3>0)
+                                                     {
+                                                        ?>
+                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
+                                                         <?php 
+                                                    }
+                                                    else{
+                                                        ?>
+                                                        <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                                         <?php
+                                                      }
+                                                 }
+                                                 else{
+                                                    ?>
+                                                    <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                                     <?php
+                                                  }
+                                             }
+                                             else{
+                                                ?>
+                                                <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                                 <?php
+                                              }
+                                             
+                                          }
+                                          else{
+                                            ?>
+                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                             <?php
+                                          }
+
+                                          
+                                          
+                                          ?>
                                         
                                         
                                         </tr>
