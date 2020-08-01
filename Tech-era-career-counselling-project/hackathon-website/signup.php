@@ -72,32 +72,32 @@
                        <p class="text-warning">Login to make a perfect career</p>
                        <form action="signup_script.php" method="post">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="true" placeholder="name">
+                                <input type="text" name="name" class="form-control" required="true" placeholder="Name">
 
                            </div>
                            <div class="form-group" >
-                               <input type="text" name="class" class="form-control " required="true" placeholder="class between(8-12) "  >
+                               <input type="text" name="class" class="form-control " required="true" placeholder="Enter class 8-12 "  >
 
                            </div>
                            <div class="form-group" >
-                               <input type="text" name="father_name" class="form-control" required="true" placeholder="father's name">
+                               <input type="text" name="father_name" class="form-control" required="true" placeholder="Father's Name">
 
                            </div>
                            <div class="form-group" >
-                               <input type="text" name="phone_number" class="form-control"required="true" placeholder="phone number"  pattern=".{10,}" >
+                               <input type="text" name="phone_number" class="form-control"required="true" placeholder="Phone Number"  pattern=".{10,}" >
 
                            </div>
                            <div class="form-group" >
-                               <input type="text"  name="email" class="form-control" required="true"  placeholder="email id" >
+                               <input type="text"  name="email" class="form-control" required="true"  placeholder="Email id" >
 
                            </div>
 
                            <div class="form-group" >
-                               <input type="password"  name="password" class="form-control" required="true" placeholder="password" pattern=".{6,}">
+                               <input type="password"  name="password" class="form-control" required="true" placeholder="Password" pattern=".{6,}">
 
                            </div>
                            <div class="form-group" >
-                               <input type="password" name="confirom_password" class="form-control" required="true" pattern=".{6,}"  placeholder="confirom password">
+                               <input type="password" name="confirom_password" class="form-control" required="true" pattern=".{6,}"  placeholder="Confirom password">
 
                            </div>
 
