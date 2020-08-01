@@ -60,7 +60,7 @@ $row=mysqli_fetch_array($name_result);
                                           <th>Class:  <p style="float:right;color:green;"> <?php echo $row['class']; ?></p></th>
                                         </tr>
                                         <tr> 
-                                           <th>Father's name:  <p style="float:right;color:green;"> <?php echo $row['father_name'] ;?></p></th>
+                                           <th>Father's Name:  <p style="float:right;color:green;"> <?php echo $row['father_name'] ;?></p></th>
                                         </tr>
                                          <tr>
                                            <th>Phone number: <p style="float:right;color:green;"> <?php echo $row['phone_number']; ?></p></th>
