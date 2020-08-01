@@ -135,7 +135,7 @@ $row3=mysqli_num_rows($q3_result);
                                                      if($row3>0)
                                                      {
                                                         ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
+                                                        <th> <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
                                                          <?php 
                                                     }
                                                     else{
@@ -185,7 +185,7 @@ $row3=mysqli_num_rows($q3_result);
                                                      if($row3>0)
                                                      {
                                                         ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
+                                                        <th> <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
                                                          <?php 
                                                     }
                                                     else{
