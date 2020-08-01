@@ -288,7 +288,7 @@ $row3=mysqli_num_rows($q3_result);
                                           if($r==4){?>
                                            <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
                                           <?php } else{?>
-                                            <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
+                                            <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt First</button> </a>
                                           <?php } ?>
                                          
                                          
