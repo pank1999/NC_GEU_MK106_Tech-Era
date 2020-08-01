@@ -126,13 +126,103 @@ $row3=mysqli_num_rows($q3_result);
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th> <a href="#"> <span class="glyphicon glyphicon-education"></span> result </a></th>
+                                            <?php 
+                                          
+                                          
+                                          
+                                          
+                                          if($row > 0)
+                                          {
+                                             if($row1>0)
+                                             {
+                                                 if($row2>0)
+                                                 {
+                                                     if($row3>0)
+                                                     {
+                                                        ?>
+                                                        <th> <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <span class="glyphicon glyphicon-signal"></span> result </th>              
+                                                         <?php 
+                                                    }
+                                                    else{
+                                                        ?>
+                                                        <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</th>              
+                                                         <?php
+                                                      }
+                                                 }
+                                                 else{
+                                                    ?>
+                                                    <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                                     <?php
+                                                  }
+                                             }
+                                             else{
+                                                ?>
+                                                <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                                 <?php
+                                              }
+                                             
+                                          }
+                                        
+                                          else{
+                                            ?>
+                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
+                                             <?php
+                                          }
+
+                                          
+                                          
+                                          ?>
                                         </tr>
                                         <tr>
                                             <th> <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
                                         </tr>
                                         <tr>
-                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> report </a></th>
+                                             <?php 
+                                          
+                                          
+                                          
+                                          
+                                          if($row > 0)
+                                          {
+                                             if($row1>0)
+                                             {
+                                                 if($row2>0)
+                                                 {
+                                                     if($row3>0)
+                                                     {
+                                                        ?>
+                                                        <th> <a href="http://localhost/phplessons/hackathon-website/report_class_10.php"> <span class="glyphicon glyphicon-signal"></span> reporth>              
+                                                         <?php 
+                                                    }
+                                                    else{
+                                                        ?>
+                                                        <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> report>              
+                                                         <?php
+                                                      }
+                                                 }
+                                                 else{
+                                                    ?>
+                                                    <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> report></th>              
+                                                     <?php
+                                                  }
+                                             }
+                                             else{
+                                                ?>
+                                                <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> report></th>              
+                                                 <?php
+                                              }
+                                             
+                                          }
+                                        
+                                          else{
+                                            ?>
+                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> report</th>              
+                                             <?php
+                                          }
+
+                                          
+                                          
+                                          ?>
                                         </tr>
                             
 
