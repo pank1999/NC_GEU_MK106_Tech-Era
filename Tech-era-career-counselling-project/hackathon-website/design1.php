@@ -123,7 +123,7 @@ section .D{
 }
 </style>
 
-<!--Assignments-->
+
 <div id="identity" >
 
    <h1 > Assignments </h1> 
