@@ -110,12 +110,7 @@ $row3=mysqli_num_rows($q3_result);
                                                 
                                                    <a href="#"> <span class="glyphicon glyphicon-book"></span> Assignments </a>
                                                  
-                                                   <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style=" background-color: rgb(159, 161, 163); color:white;">
-                                                      <a class="dropdown-item ass" href="#" style=" height:10px;color: rgb(21, 21, 22);">Assignment-1</a>
-                                                      <a class="dropdown-item ass" href="#" style=" height: 10px; color: rgb(15, 15, 15);">Assignment-2</a>
-                                                      <a class="dropdown-item ass" href="#" style=" height: 10px; color: rgb(20, 20, 20);">Assignment-3</a>
-                                                    </div>
-                                                    -->
+                                                   
                                                   </div>
                                                 
                                             </th>
