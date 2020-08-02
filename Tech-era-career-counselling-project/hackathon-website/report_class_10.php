@@ -148,7 +148,7 @@ if(!isset($_SESSION['email'])){
 
                                             </div>
                                             <div class="thumbnail" style=" margin-top:50px;">
-                                            
+                                                        <h3>Note: you can also asks to the experts for any query <button class="btn btn-success ">  <a href="http://localhost/phplessons/hackathon-website/expert.php"style="text-decoration:none;">expert advice</a></button></h3>
                                                      <h3>Note: you can also evaluate your second and third best option from the above given report</h3>
                                              </div>
 
