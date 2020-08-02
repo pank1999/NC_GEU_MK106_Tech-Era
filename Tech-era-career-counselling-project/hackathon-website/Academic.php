@@ -13,12 +13,6 @@ or die(mysqli_error($con));
 
 
 
-if( mysqli_num_rows($user_check_query )> 0){
-  $_SESSION['Academic_10']=1;
-echo "<script>alert('you have already submitted')</script>";
-echo "<script>location.href = 'dashboard.php'</script>";
-
-}
 ?>
 
 
