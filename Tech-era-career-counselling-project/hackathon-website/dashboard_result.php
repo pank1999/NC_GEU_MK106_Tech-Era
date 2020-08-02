@@ -55,25 +55,13 @@ if(!isset($_SESSION['email'])){
         <div class="row row-style" >
             <div class="col-xs-12">
                 <div class="panel panel-default">
-                    <!--panel has some other property
-                    1. panel-success
-                    2. panel-primary
-                    3.panel-warning
-                    4. panel-danger
-                    5. panel-info-->
+                    
                 
                     <div class="panel-heading" style="background-color: rgb(9, 130, 134);">
                    <h1 style="color: rgb(255, 255, 255);">Dashboard  class(8-10) <h3><?php echo $_SESSION['email'];?>
         
                    <span style="color: aliceblue;  font-size: 30px; float:right;" class="glyphicon glyphicon-user"></span></h3>
-                    <!--          
-                   <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:10%;">
-                                               
-                        
-                        </div>
-                    </div>
-                    -->
+                    
                    
                     </h1>    
                        
@@ -99,12 +87,7 @@ if(!isset($_SESSION['email'])){
                                                 
                                                     <span class="glyphicon glyphicon-book"></span> <a href="http://localhost/phplessons/hackathon-website/dashboard.php"> Assignments </a>
                                                  
-                                                   <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style=" background-color: rgb(159, 161, 163); color:white;">
-                                                      <a class="dropdown-item ass" href="#" style=" height:10px;color: rgb(21, 21, 22);">Assignment-1</a>
-                                                      <a class="dropdown-item ass" href="#" style=" height: 10px; color: rgb(15, 15, 15);">Assignment-2</a>
-                                                      <a class="dropdown-item ass" href="#" style=" height: 10px; color: rgb(20, 20, 20);">Assignment-3</a>
-                                                    </div>
-                                                    -->
+                                                   
                                                   </div>
                                                 
                                             </th>
@@ -129,16 +112,7 @@ if(!isset($_SESSION['email'])){
                                        
                                        
                                         <div class="container">
-                                           <!-- <div class="row">
-                                                <div class=" col-sm-3" style="">
-                                                    
-                                                    <a class="thumbnail">  <img src="http://localhost/phplessons/hackathon-website/image/backgroundpdf.jpg" alt=""></a>
-                                                    
-                                                </div>
-                                                <h3 style="margin-left:100px;"> these assignments will help us to find best career option for </h3>
-
-                                            </div>
-                                            -->
+                                          
                                         <div class="jumbotron " style="background-color: rgb(53, 170, 238); margin-top: 10px;width:1000px; height:130px;" >
                                            <h2 style="text-align: center;"> Result </h2>
                                             
@@ -209,50 +183,7 @@ if(!isset($_SESSION['email'])){
                                          
                                             
 
- <?php
-/*  
 
-
-
-
-
-
- if($_SESSION['class_10_interest_01_result']>$_SESSION['class_10_interest_02_result'])
- {
-    $assessment_interest_result=$_SESSION['class_10_interest_01_result'];
-   // echo $_SESSION['class_10_interest_01_result'];
-    $_SESSION['assessment_interest_result']="science";
-   // echo  $_SESSION['assessment_interest_result'];
-
-
-}
-else if($_SESSION['class_10_interest_02_result']>$_SESSION['class_10_interest_03_result'])
-{
-    $assessment_interest_result=$_SESSION['class_10_interest_02_result'];
-   // echo $_SESSION['class_10_interest_02_result'];
-    $_SESSION['assessment_interest_result']="commerce";
-    //echo  $_SESSION['assessment_interest_result'];
-}
-   
-else if($_SESSION['class_10_interest_03_result']>$_SESSION['class_10_interest_04_result'])
-{
-    $assessment_interest_result=$_SESSION['class_10_interest_03_result'];
-    echo $_SESSION['class_10_interest_03_result'];
-    $_SESSION['assessment_interest_result']="arts";
-   // echo  $_SESSION['assessment_interest_result'];
-  
-}
-else {
-    $assessment_interest_result=$_SESSION['class_10_interest_04_result'];
-    //echo$_SESSION['class_10_interest_04_result'];
-    $_SESSION['assessment_interest_result']="agriculture";
-    //echo  $_SESSION['assessment_interest_result'];
-   
-}
-
-                                            
-  */                                          
-?>
 
  </div>
  
