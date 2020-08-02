@@ -117,7 +117,7 @@ if(!isset($_SESSION['email'])){
                                                     
                                                     
                                                     <div class="thumbnail"style=" background-color:rgb(20, 202, 148); width:300px;"> 
-                                                         
+                                                         <h3>Note: you can also asks to the experts for any query <button class="btn btn-success ">  <a href="http://localhost/phplessons/hackathon-website/expert.php"style="text-decoration:none;">expert advice</a></button></h3>
                                                          <h3 style="text-align:center; color:black; "><?php include('../graphs_graduation/final_result_graduation.php'); ?></h3>
                                                        </div>
                                                        
