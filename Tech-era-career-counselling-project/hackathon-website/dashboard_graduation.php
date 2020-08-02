@@ -129,54 +129,16 @@ $row3=mysqli_num_rows($q3_result);
                                         </tr>
                                         <tr>
                                               
-                                                
-                                         <?php 
-                                          
-                                          
-                                          
-                                          
-                                          if($row > 0)
-                                          {
-                                             if($row1>0)
-                                             {
-                                                 if($row2>0)
-                                                 {
-                                                     if($row3>0)
-                                                     {
-                                                        ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
-                                                         <?php 
-                                                    }
-                                                    else{
-                                                        ?>
-                                                        <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
-                                                         <?php
-                                                      }
-                                                 }
-                                                 else{
-                                                    ?>
+                                        
+                                                       
+                                                    
                                                     <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
-                                                     <?php
-                                                  }
-                                             }
-                                             else{
-                                                ?>
-                                                <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
-                                                 <?php
-                                              }
-                                             
-                                          }
-                                          else{
-                                            ?>
-                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> result</a></th>              
-                                             <?php
-                                          }
-
+                                                
+                                      
+                                 
                                           
                                           
-                                          ?>
-                                        
-                                        
+                                         
                                         </tr>
                             
 
@@ -218,17 +180,11 @@ $row3=mysqli_num_rows($q3_result);
                                                   <?php 
 
                                                 
-                                                   
-                                                    if($row>0){ $r++;?>
-
-                                                     <a href="http://localhost/phplessons/hackathon-website/Graduation/Personality_part_1.php"> <button class="btn btn-danger  btn-block " disabled >Allready submitted</button></a>
-                                                    <?php }   
- 
-                                                  else{ ?>
+                                                 
                                                   <a href="http://localhost/phplessons/hackathon-website/Graduation/Personality_part_1.php"> <button class="btn btn-danger  btn-block " >Start</button></a>
-                                                  <?php }
+                                              
  
-                                                   ?>
+                                               
 
 
 
@@ -243,19 +199,8 @@ $row3=mysqli_num_rows($q3_result);
                                                    </div>
                                                   
                                                 
-                                                  <?php 
-
-                                                    
-                                                   if($row1 > 0){ $r++; ?>
-
-                                                   <a href="http://localhost/phplessons/hackathon-website/Graduation/interest_part_1.php"> <button class="btn btn-danger  btn-block " disabled >Allready Submitted</button></a>
-                                                  <?php }   
-
-                                                  else{ ?>
                                                     <a href="http://localhost/phplessons/hackathon-website/Graduation/interest_part_1.php"> <button class="btn btn-danger  btn-block " >Start</button></a>
-                                                   <?php }
-
-                                                        ?>
+                                              
 
                                                 </div>
                                                 <div class="col-xs-4" style="margin-left: 80px;">
@@ -266,22 +211,8 @@ $row3=mysqli_num_rows($q3_result);
                                                     
                                                           
 
-                                                    <?php 
-
-                                                     if($row2 > 0){  
-                                                         $r++;
-    
-                                                           ?>
-
-                                                          <a href="http://localhost/phplessons/hackathon-website/Graduation/skills_strength.php"><button class="btn btn-danger btn-block" disabled >Allready Submitted</button></a>
-                                                           <?php }   
-
-                                                          else{ ?>
                                                            <a href="http://localhost/phplessons/hackathon-website/Graduation/skills_strength.php"><button class="btn btn-danger btn-block" >Start</button></a>
-                                                         <?php }
-
-                                                           ?>
-  
+                                                    
 
                                                 </div>
                                                 <div class="col-xs-4" style="margin-left: 50px;">
@@ -295,17 +226,8 @@ $row3=mysqli_num_rows($q3_result);
 
                                                    
 
-                                                        if($row3 > 0){ $r++; ?>
-
-                                                           <a href="http://localhost/phplessons/hackathon-website/Graduation/academic_marks.php"><button class="btn btn-danger btn-block" disabled>Already submitted</button></a>
-                                                            <?php }   
-
-                                                                else{ ?>
                                                              <a href="http://localhost/phplessons/hackathon-website/Graduation/academic_marks.php"><button class="btn btn-danger btn-block" >Start</button></a>
-                                                                 <?php }
-
-                                                               ?>
-
+                                                                
 
 
                                                 </div>
@@ -320,11 +242,8 @@ $row3=mysqli_num_rows($q3_result);
                                           
                                           <?php 
                                           
-                                          if($r==4){?>
-                                           <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
-                                          <?php } else{?>
-                                            <a href="http://localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
-                                          <?php } ?>
+                                         localhost/phplessons/hackathon-website/Graduation/graduation_report.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt first</button> </a>
+                                       
                                          </div>       
                                      </div>
 
