@@ -6,7 +6,7 @@ if(!isset($_SESSION['email'])){
 else{
     session_destroy();
     
-    echo "<script>alert('You are successfully logout !')</script>"; 
+    echo "<script>alert('You are successfully logout !  Visit again')</script>"; 
     header('location:startbootstrap-modern-business-gh-pages/Homepage.php');
     
 }
