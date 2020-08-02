@@ -17,11 +17,7 @@ or die(mysqli_error($con));
 
 
 
-if( mysqli_num_rows($user_check_query )> 0){
-    $_SESSION['interest_G']=1;
-echo "<script>alert('you have already submitted')</script>";
-echo "<script>location.href = 'dashboard_result.php'</script>";
-}
+
 
 ?>
 
