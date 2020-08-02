@@ -43,7 +43,9 @@ if(!isset($_SESSION['email'])){
          <div class="row ">
              
               <div class="col-xs-5">
-                 After analysing your responses we have evaluated your personality type which are shown below.
+                  Thsi result is for user for self analysis and evaluation purpose so that you can know more about yourself using the result form each assessements .for any qurey please fell free to contact the Expert Advice Officer 
+                  <br>
+                 After analysing your responses we have evaluated your personality which are shown below Refer the pie chart for better analysis .
                 <br>
                 <br>
 
