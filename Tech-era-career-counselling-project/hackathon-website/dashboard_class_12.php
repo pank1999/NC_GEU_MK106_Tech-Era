@@ -116,101 +116,31 @@ $row3=mysqli_num_rows($q3_result);
                                             </th>
                                         </tr>
                                         <tr>
-                                            <?php 
                                           
                                           
                                           
                                           
-                                          if($row > 0)
-                                          {
-                                             if($row1>0)
-                                             {
-                                                 if($row2>0)
-                                                 {
-                                                     if($row3>0)
-                                                     {
-                                                        ?>
+                                          
+                                       
                                                         <th> <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <span class="glyphicon glyphicon-signal"></span> result</a> </th>              
-                                                         <?php 
-                                                    }
-                                                    else{
-                                                        ?>
-                                                        <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Result</a></th>              
-                                                         <?php
-                                                      }
-                                                 }
-                                                 else{
-                                                    ?>
-                                                    <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Result</a></th>              
-                                                     <?php
-                                                  }
-                                             }
-                                             else{
-                                                ?>
-                                                <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Result</a></th>              
-                                                 <?php
-                                              }
-                                             
-                                          }
-                                          else{
-                                            ?>
-                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Result</a></th>              
-                                             <?php
-                                          }
-
-                                          
-                                          
-                                          ?>
+                                                   
+                                               
+                                                                           
                                         </tr>
                                         <tr>
                                             <th>  <a href="http://localhost/phplessons/hackathon-website/startbootstrap-modern-business-gh-pages/index.php"> <span class="glyphicon glyphicon-th"></span> career </a></th>
                                         </tr>
                                         <tr>
-                                             <?php 
-                                          
-                                          
-                                          
-                                          
-                                          if($row > 0)
-                                          {
-                                             if($row1>0)
-                                             {
-                                                 if($row2>0)
-                                                 {
-                                                     if($row3>0)
-                                                     {
-                                                        ?>
-                                                        <th> <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
-                                                         <?php 
-                                                    }
-                                                    else{
-                                                        ?>
-                                                        <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Report</a></th>              
-                                                         <?php
-                                                      }
-                                                 }
-                                                 else{
-                                                    ?>
-                                                    <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Report</a></th>              
-                                                     <?php
-                                                  }
-                                             }
-                                             else{
-                                                ?>
-                                                <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Report</a></th>              
-                                                 <?php
-                                              }
                                              
-                                          }
-                                          else{
-                                            ?>
-                                            <th> <a href="#"> <span class="glyphicon glyphicon-signal"></span> Report</a></th>              
-                                             <?php
-                                          }
-
                                           
                                           
-                                          ?>
+                                          
+                                          
+                                          
+                                                        <th> <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <span class="glyphicon glyphicon-signal"></span> report</a> </th>              
+                                                    
+                                                 
+                             
                                         </tr>
                             
 
@@ -248,21 +178,14 @@ $row3=mysqli_num_rows($q3_result);
                                                       <img src="http://localhost/phplessons/hackathon-website/image/Assessment-Canva.jpg" style="height:160px; width:100%;" alt="responsive image">
                                                    </div>
 
-                                                   <?php 
+                                               
 
                                                     
-                                                   $r=0;
-                                                    if($row>0){ $r++; ?>
-
-                                                         <a href="http://localhost/phplessons/hackathon-website/class_12/Personality_part_1.php"> <button class="btn btn-success  btn-block " disabled >Allready Submitted</button></a>
-
-                                                      <?php }   
- 
-                                                        else{ ?>
+                                                 
                                                             <a href="http://localhost/phplessons/hackathon-website/class_12/Personality_part_1.php"> <button class="btn btn-success  btn-block " >Start</button></a>
-                                                        <?php }
+
  
-                                                         ?>
+                                                    
 
 
 
@@ -280,16 +203,9 @@ $row3=mysqli_num_rows($q3_result);
                                                   <?php 
 
                                                     
-                                                  if($row1>0){ $r++; ?>
-
-                                                     <a href="http://localhost/phplessons/hackathon-website/class_12/interest_part_1.php"> <button class="btn btn-success  btn-block " disabled >Allready Submitted</button></a>
-                                                     <?php }   
-
-                                                     else{ ?>
+                                                 
                                                      <a href="http://localhost/phplessons/hackathon-website/class_12/interest_part_1.php"> <button class="btn btn-success  btn-block " >Start</button></a>
-                                                         <?php }
-
-                                                     ?>
+                                                        
 
 
                                                 </div>
@@ -300,20 +216,11 @@ $row3=mysqli_num_rows($q3_result);
                                                      </div>
                                                     
                                                        
-                                                    <?php 
-
-                                                    if($row2 > 0){ $r++;
-    
-                                                      ?>
-
-                                                     <a href="http://localhost/phplessons/hackathon-website/class_12/skillls_class_12.php"><button class="btn btn-success  btn-block" disabled >Allready Submitted</button></a>
-                                                            <?php }   
-
-                                                       else{ ?>
+                                                    
                                                       <a href="http://localhost/phplessons/hackathon-website/class_12/skillls_class_12.php"><button class="btn btn-success  btn-block" >Start</button></a>
-                                                        <?php }
+                                                     
 
-                                                       ?>
+                                                     
   
 
                                                 </div>
@@ -328,17 +235,9 @@ $row3=mysqli_num_rows($q3_result);
                                                      <?php 
 
                                                    
-
-                                                      if($row3 > 0){  $r++;?>
-
-                                                        <a href="http://localhost/phplessons/hackathon-website/class_12/Academic_class_12.php"><button class="btn btn-success btn-block" disabled>Allready Submitted</button></a>
-                                                          <?php }   
-
-                                                            else{ ?>
+                                                   
                                                            <a href="http://localhost/phplessons/hackathon-website/class_12/Academic_class_12.php"><button class="btn btn-success btn-block" >Start</button></a>
-                                                            <?php }
-
-                                                             ?>  
+                                                             
                                                 </div>
 
 
@@ -350,29 +249,9 @@ $row3=mysqli_num_rows($q3_result);
                                         <div class="container" style="margin-top:100px;">
                                             <h2 style="margin-left:350px; text-decoration:underline rgb(57, 184, 162);">check your result here  </h2>
                                            
-                                         
-                                           <?php 
-                                          $a=0;
-                                          if(isset($_SESSION['Personality4_12']))
-                                          {
-                                             if(isset($_SESSION['interest_12']))
-                                             {
-                                                 if(isset($_SESSION['skills_12']))
-                                                 {
-                                                     if(isset($_SESSION['Academic_12']))
-                                                     {
-                                                         $a=4;
-                                                     }
-                                                 }
-                                             }
-                                             
-                                          }
-                                          
-                                          if($r==4){?>
-                                           <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <button class="btn btn-primary "  style="margin-left:450px;" >Result</button> </a>
-                                          <?php } else{?>
+                                       
                                             <a href="http://localhost/phplessons/hackathon-website/class_12/report_class_12.php"> <button class="btn btn-primary " disabled style="margin-left:450px;" >Attempt First</button> </a>
-                                          <?php } ?>
+                                     
                                          
                                          
                                          
