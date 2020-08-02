@@ -26,13 +26,9 @@ or die(mysqli_error($con));
 
 
 
-if( mysqli_num_rows($user_check_query )> 0){
-   $_SESSION['Academic_12']=1;
-echo "<script>alert('you have already submitted')</script>";
-echo "<script>location.href = '../dashboard_graduation.php'</script>";
-}
 
-else{
+
+
 
 
 
@@ -64,7 +60,6 @@ else{
    echo "<script>alert('you have successfully submitted ')</script>";
    echo "<script>location.href = '../dashboard_graduation.php'</script>";
 
-}
    
    
  
