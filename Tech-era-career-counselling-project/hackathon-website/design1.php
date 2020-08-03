@@ -191,7 +191,7 @@ font-size:20px;
 }
 </style>
 
-<!-- Modal -->
+<!-- Modal 
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-top">
     <header class="w3-container w3-teal w3-display-container"> 
@@ -208,7 +208,7 @@ font-size:20px;
     </footer>
   </div>
 </div>
-
+-->
 
 
 <!-- Work Row -->
